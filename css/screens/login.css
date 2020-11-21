@@ -54,3 +54,32 @@
   color: inherit;
   font-size: 13px;
 }
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+
+.update__notification {
+  background-color: tomato;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  border: 3px solid tomato;
+  position: absolute;
+  left: 30px;
+}
