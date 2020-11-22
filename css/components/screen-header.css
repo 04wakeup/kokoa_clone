@@ -19,9 +19,9 @@
   position: relative;
 }
 .setting__notification {
-  background-color: tomato;
+  /* background-color: tomato; */
   border-radius: 50%;
-  border: 3px solid tomato;
+  border: 3px solid #9ad3bc;
   position: absolute;
   top: -10px;
   right: -5px;

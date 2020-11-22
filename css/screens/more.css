@@ -27,7 +27,7 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
+  background-color: #9ad3bc;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -35,6 +35,9 @@
   margin-bottom: 10px;
 }
 
+.more-suggestions__icon:nth-child(2) .more-suggestions__icon-image {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;
