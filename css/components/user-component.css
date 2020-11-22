@@ -22,7 +22,7 @@
 .user-component__subtitle {
   font-size: 17px;
   margin-top: 8px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .user-component-avatar--xl {
@@ -45,7 +45,7 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(68, 30, 30, 0.4);
+  color: rgba(255, 255, 255, 0.4);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -57,5 +57,5 @@
 }
 
 .user-component__subtitle span i {
-  color: rgba(255, 0, 0, 0.5);
+  color: #f3eac2;
 }
